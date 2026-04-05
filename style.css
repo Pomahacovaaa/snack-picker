@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'cutesy';
+  src: url('Cute_Font.ttf') format('opentype');
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+body{
+    background-color: #feeba2;
+}
+
+
+
+
+select {
+  width: 100px;
+  padding: 5px;
+  font-family: 'cutesy';
+  font-weight: bold;
+  font-size: 25px;
+  border: 3px solid #9b8738;
+  margin: 2px;
+
+  background-color: #fff7d6;
+  color: #9b8738;
+  appearance: none; 
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+button{
+    width: 100px;
+      font-family: 'cutesy';
+  font-weight: bold;
+    background-color: #fff7d6;
+  color: #9b8738;
+  padding: 5px;
+  font-size: 25px;
+  border: 3px solid #9b8738;
+}
+
+#result {
+  font-family: 'cutesy';
+  font-weight: bold;
+  margin-top: 15px;
+  font-size: 20px;
+  color: #9b8738;
+  text-align: center;
+
+}
+.fil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p{
+      font-family: 'cutesy';
+  font-weight: bold;
+      font-size: 30px;
+  color: #9b8738;
+  text-align: center;
+
+}
+h1{
+      font-family: 'cutesy';
+  font-weight: bolder;
+      font-size: 50px;
+  color: #9b8738;
+  text-align: center;
+
+}
+#bouncer {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+}

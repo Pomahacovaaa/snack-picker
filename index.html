@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>snack decider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Snack Picker:</h1>
+
+    <div class="container">
+
+        <div class="fil">
+                <select id="prep">
+        <option value="all">all</option>
+        <option value="0"> 0 minutes</option>
+        <option value="5"> 5 minutes</option>
+        <option value="20"> 20 minutes</option>
+    </select>
+    
+                <select id="health">
+        <option value="all">all</option>
+        <option value="hel">healthy</option>
+        <option value="unhel">unhealthy</option>
+        
+    </select>
+    <button onclick ="FilterItems()">filter</button>
+   
+        </div>
+        
+        
+
+
+    </div>
+
+<p>Your best options:</p>
+<div id="result"></div>
+<div id="bouncer"><img src="banana.png" width="100px" ></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
