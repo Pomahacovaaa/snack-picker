@@ -1,5 +1,6 @@
 # snack-picker
-LINK
+[the link](https://pomahacovaaa.github.io/snack-picker/)
+
 <img height="915" alt="Snímek obrazovky 2026-04-05 105840" src="https://github.com/user-attachments/assets/f6c6400c-eb70-4eda-86c2-919318187376" />
 
 ## What is this project?
