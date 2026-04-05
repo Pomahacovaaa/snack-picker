@@ -4,13 +4,9 @@ const items = [
     { name: "yogurt", prep: 0, health: "hel" },
     { name: "granola bar", prep: 0, health: "hel" },
     { name: "protein bar", prep: 0, health: "hel" },
-    { name: "cheese", prep: 0, health: "hel" },
     { name: "carrot sticks", prep: 0, health: "hel" },
-    { name: "banana", prep: 0, health: "hel" },
-    { name: "apple slices", prep: 0, health: "hel" },
     { name: "trail mix", prep: 0, health: "hel" },
     { name: "rice cakes", prep: 0, health: "hel" },
-    
     { name: "chips", prep: 0, health: "unhel" },
     { name: "chocolate", prep: 0, health: "unhel" },
     { name: "cookies", prep: 0, health: "unhel" },
@@ -25,12 +21,9 @@ const items = [
     { name: "cupcake", prep: 0, health: "unhel" },
 
     // Prep = 5 minutes
-    { name: "smoothie", prep: 5, health: "hel" },
     { name: "toast", prep: 5, health: "hel" },
-    { name: "peanut butter sandwich", prep: 5, health: "hel" },
     { name: "avocado toast", prep: 5, health: "hel" },
     { name: "hummus with veggies", prep: 5, health: "hel" },
-
     { name: "popcorn", prep: 5, health: "unhel" },
     { name: "instant noodles", prep: 5, health: "unhel" },
     { name: "nachos", prep: 5, health: "unhel" },
@@ -39,9 +32,12 @@ const items = [
     { name: "hard boiled eggs", prep: 20, health: "hel" },
     { name: "grilled chicken salad", prep: 20, health: "hel" },
     { name: "veggie omelette", prep: 20, health: "hel" },
-    { name: "homemade granola", prep: 20, health: "hel" },
     { name: "banana pancakes", prep: 20, health: "hel" },
-    { name: "avocado egg toast", prep: 20, health: "hel" }
+    { name: "avocado egg toast", prep: 20, health: "hel" },
+    { name: "bananas with chocolate", prep: 20, health: "unhel" },
+    { name: "peanut butter chocolate toast", prep: 20, health: "unhel" }, 
+    { name: "sweet waffles with syrup", prep: 20, health: "unhel" },
+    { name: "pizza rolls", prep: 20, health: "unhel" }
 ];
 
 
